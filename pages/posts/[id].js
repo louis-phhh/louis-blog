@@ -37,5 +37,6 @@ export async function getStaticProps({ params }) {
     props: {
       postData,
     },
+    notFound: !postData,
   }
 }

@@ -71,7 +71,7 @@ export async function getPostData(id) {
       ...matterResult.data,
     }
   } catch (err) {
-    return {}
+    return null
   }
 }
 
